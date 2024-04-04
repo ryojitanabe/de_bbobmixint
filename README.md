@@ -21,7 +21,7 @@ The following command runs a DE with the parameter control method in jDE and the
 $ python de.py
 ```
 
-The following command runs a DE with the parameter control method in jDE, the rand/2 mutation strategy, and the Baldwin repair method on all the 5-, 10-, 20-, 40-, 80-, 160-dimensional 24 mixed-integer BBOB test functions. The maximum number of function evaluations is 10000 * dimensionality. Results are recorded into exdata/p-j\_rand\_2\_Baldwin. 
+The following command runs a DE with the parameter control method in jDE, the rand/2 mutation strategy, and the Baldwin repair method on all the 5-, 10-, 20-, 40-, 80-, 160-dimensional 24 mixed-integer BBOB test functions. The maximum number of function evaluations is 10000 * dimensionality. Results are recorded into exdata/p-j\_rand\_2\_Baldwin. For details, please see de_bbob.py.
 
 ```
 $ python de_bbob.py --de_alg jde --de_strategy rand_2 --int_handling Baldwin --output_folder p-j_rand_2_Baldwin
