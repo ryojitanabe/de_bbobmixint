@@ -1,7 +1,7 @@
 # de_bbobmixint
 This repository provides the Python code to reproduce experimental results shown in the following paper:
 
-> Ryoji Tanabe, **Benchmarking Parameter Control Methods in Differential Evolution for Mixed-Integer Black-Box Optimization**, GECCO2024, pdf
+> Ryoji Tanabe, **Benchmarking Parameter Control Methods in Differential Evolution for Mixed-Integer Black-Box Optimization**, GECCO2024, [pdf](https://arxiv.org/abs/2404.03303), [data](https://zenodo.org/doi/10.5281/zenodo.10608500)
 
 This repository is based on the COCO framework implemented in Python (https://github.com/numbbo/coco):
 
